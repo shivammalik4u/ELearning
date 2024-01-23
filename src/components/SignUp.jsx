@@ -54,8 +54,8 @@ const SignUp = () => {
 
                 <div className="mt-3 text-center">
                     <p className="mb-0">Have an account?</p>
-                    <Button className="btn btn-success">
-                        <Link className="text-decoration-none text-white" to="/Login">Log In here</Link>
+                    <Button variant="success">
+                        <Link className="text-decoration-none text-white" to="/Login">Log In</Link>
                     </Button>
                 </div>
             </Form>
