@@ -26,7 +26,7 @@ const LogIn = () => {
 
   return (
     <Container fluid style={backgroundImageStyle} className="p-0">
-      <Form className="p-4 border rounded shadow text-dark" style={{ maxWidth: '400px', backdropFilter: 'blur(20px)' }}>
+      <Form className="p-4 border rounded shadow text-dark" style={{ maxWidth: '600px', width: '500px', backdropFilter: 'blur(20px)' }}>
         <h2 className="text-center mb-4">Login</h2>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>

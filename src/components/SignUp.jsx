@@ -18,11 +18,11 @@ const SignUp = () => {
 
     return (
         <Container fluid style={backgroundImageStyle} className="p-0">
-            <Form className="p-4 border rounded shadow text-dark" style={{ maxWidth: '400px', backdropFilter: 'blur(20px)' }}>
+            <Form className="p-4 border rounded shadow text-dark" style={{ maxWidth: '600px',width: '500px', backdropFilter: 'blur(20px)' }}>
                 <h2 className="text-center mb-4">SignUp</h2>
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter First Name" />
+                    <Form.Control type="text" placeholder="First Name" />
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label>Last Name</Form.Label>
